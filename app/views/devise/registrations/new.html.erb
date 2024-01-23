@@ -24,6 +24,10 @@
   <div class="actions">
     <%= f.submit "Sign up" %>
   </div>
+  <%= f.text_field :availability, placeholder: 'Disponibilidad' %>
+
 <% end %>
+<%= link_to "Crear Perfil de Músico", new_musician_path %>
 
 <%= render "devise/shared/links" %>
+

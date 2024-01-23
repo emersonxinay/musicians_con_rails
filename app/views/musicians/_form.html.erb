@@ -1,0 +1,7 @@
+<!-- app/views/musicians/_form.html.erb -->
+<%= form_with(model: @musician, local: true) do |form| %>
+  <%= form.label :availability %>
+  <%= form.text_field :availability %>
+
+  <%= form.submit "Crear Músico" %>
+<% end %>
