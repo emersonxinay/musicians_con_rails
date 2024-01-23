@@ -5,4 +5,5 @@ class RegistrationsController < Devise::RegistrationsController
       Musician.create(user: resource)
     end
   end
+
 end
